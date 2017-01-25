@@ -19,7 +19,22 @@ h1, h2, h3 {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
-  color: #EFEFEF;
+  color: #FFFFFF;
 }
 
-  
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FFFFFF;
+  opacity: 0.75;
+}
