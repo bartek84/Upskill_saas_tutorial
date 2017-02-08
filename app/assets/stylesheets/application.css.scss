@@ -1,5 +1,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 .home-callout, .navbar {
   background: #6190E8; /* fallback for old browsers */
@@ -28,5 +30,20 @@ h1, h2, h3 {
   &:hover {
     color: #FFFFFF;
     opacity: 0.75;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #6190E8;
   }
 }
